@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt">
+<meta charset="UTF-8">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcqsio5mxzsd--hmmYrDPMVl3R_vjL0euM6g&usqp=CAU');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	
+}
+
+h1 {
+	font-family: 'Fantasy', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+	
+}
+button:hover{
+	cursor: pointer;
+}
+        
+body {
+    background: linear-gradient(to right, #ff0000, #0000ff);
+  }
+  background-size: cover;
+  filter: brightness(0.7);  /* esmaece a imagem */
+
+}
+h1 {
+    color: yellow;
+    padding: 60px;
+}
+
+img    {
+    border-radius: 50%;
+    img-align: center;
+}
+
+.imagem {
+    margin:auto;
+    width:200px;
+    text-align: center;
+    color: black;
+   
+}
+
+conteudo {
+    margin:relative;
+    width:200px;
+    text-align: center;
+    color: blue;
+    body {
+    color: #333;
+}
+}
+
+
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: linear-gradient(to right, blue, red);
+    color: black;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+	overflow: hidden;
+	border-radius: 0 0 4% 20% / 14%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 50%, #fd5e086b 100%);
+  *{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+	
+}
+
+.formulario {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  position: center;
+}
+.formulario input, form textarea {
+  border: 0;
+  outline: 0;
+  padding: 0.8em;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 20px;
+  display: block;
+  width: 80%;
+  margin-top: 16px;
+  font-family:'open_sansregular';
+  font-size:16px;
+  position: center;
+  color:#424242;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+.formulario input:focus, .formulario textarea:focus {
+   
+  color:#3cafe7; 
+  -moz-box-shadow: 0 0px 2px #3cafe7 !important;
+  -webkit-box-shadow: 0 0px 2px #3cafe7 !important;
+  box-shadow: 0 0px 2px #3cafe7 !important;
+  position: center;
+}
+.formulario .btn-submit {
+  color: #fff;
+  background: #3cafe7 ;
+  cursor: pointer;
+  transition: 0.5s;
+  position: center;
+}
+.formulario .btn-submit:hover {
+ 
+  background-color:red;
+  -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+.formulario textarea {
+  height: 174px;
+}
+.metade {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+  position: center;
+}
+.right { width:50%;}
+.left  { margin-right:2%; }
+@media (max-width: 768px) {
+  
+  .metade { width:100%; float:none; margin-bottom:80; position: center; }
+  
+}
+#container {
+  position: relative;
+  height: 10vh;
+}
+
+.balloon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    bottom: 0;
+    transform: translateX(-50%) rotate(0deg);
+  }
+  50% {
+    bottom: 20px;
+    transform: translateX(-50%) rotate(10deg);
+  }
+  100% {
+    bottom: 0;
+    transform: translateX(-50%) rotate(0deg);
+  }
+}
+p {
+  color:white ;
+}
+
+
+.formulario {
+  display: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+formulario {
+  
+  text-align: center;
+}
+
+.transparent-line {
+  border: 0;
+  height: 100px;
+  background:(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+</style>
+
+    <title>Guia Hacker</title>
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcqsio5mxzsd--hmmYrDPMVl3R_vjL0euM6g&usqp=CAU">
+    
+</head>
+<header>
+   
+	<div class="overlay">
+<h1>Guia Hacker</h1>
+<h3>Preparado para se tornar um hacker?</h3>
+<p>Este guia é destinado a fornecer informações básicas sobre hacking e segurança cibernética. Aqui, você aprenderá sobre as técnicas e ferramentas utilizadas por hackers, bem como as medidas de segurança que podem ser implementadas para proteger dispositivos e sistemas.
+
+</p>
+	<br>
+
+		</div>
+</header>
+<br>
+<br>
+<br>
+<body>
+<!-- Início do conteúdo da minha página  -->
+ <div id="container">
+  <div class="balloon"></div>
+  <div class="balloon"></div>
+  <div class="balloon"></div>
+ 
+</div>
+
+ <div id="conteudo">
+    <h2> O melhor guia hacker para iniciantes</h2>
+<br>
+    <p>
+        Este guia é destinado a fornecer informações básicas sobre hacking e segurança cibernética. Aqui, você aprenderá sobre as técnicas e ferramentas utilizadas por hackers, bem como as medidas de segurança que podem ser implementadas para proteger dispositivos e sistemas. É importante destacar que o objetivo deste guia não é incentivar o uso ilegal dessas técnicas, mas sim fornecer informações para ajudar os usuários a se protegerem contra ataques cibernéticos e compreender como eles funcionam. Este guia é projetado para aqueles que estão interessados em aprender mais sobre o mundo do hacking e segurança cibernética, incluindo estudantes, profissionais da tecnologia e usuários comuns da internet. Comece sua jornada de aprendizado hoje e fique mais seguro online!
+    </p>
+
+<h2> Por que usar este guia?</h2>
+<br>
+    <p>
+        
+
+Existem muitas razões para usar este guia hacker. Em primeiro lugar, a segurança cibernética é uma preocupação crescente em nossa sociedade digital, e este guia oferece informações sobre como se proteger contra ataques cibernéticos e outras ameaças à segurança. Além disso, ele fornece uma introdução básica sobre o mundo do hacking, incluindo as técnicas e ferramentas utilizadas por hackers, o que pode ser útil para estudantes, profissionais da tecnologia e usuários comuns da internet que estão interessados em aprender mais sobre o assunto. Finalmente, este guia também pode ser útil para ajudar a compreender como as tecnologias de segurança funcionam, para que você possa tomar decisões informadas sobre como proteger sua privacidade e informações pessoais online. Em suma, se você está interessado em aprender sobre segurança cibernética e hacking, este guia é uma excelente fonte de informação.
+    </p>
+    
+    <h2> Este guia é grátis?</h2>
+<br>
+    <p>
+        
+Sim, este guia hacker é gratuito e fornece informações e recursos valiosos sobre segurança cibernética de forma acessível a todos.
+    </p>
+    
+</div>
+<body class="bg-image">
+</body>
+
+<center><h2 style="color:yellow;">Solicite o seu GUIA-HACKER agora mesmo!</h2></center>
+<!--- O formulário de contato muito louco kkk !-->
+<div class="center-form">
+<form class="formulario" method="post" action="#"> <center><div class="metade left"> <input type="text" placeholder="Nome" required=""> <input type="email" placeholder="E-mail" required=""> <input type="text" placeholder="Assunto" required=""></div> <div class="metade right"> <textarea name="mensagem" type="text" placeholder="Mesagem" required=""></textarea> </div> <p>Enviaremos o Guia-hacker para o seu e-mail gratuitamente😀<center></p><input type="submit" value="Solícitar Guia-Hacker" class="btn-submit"> </form>
+</form>
+</center>
+<!--- Fim do formulário de contato muito louco kkk !-->
+<br>
+<hr class="transparent-line">
+
+<center><img src="https://img.freepik.com/fotos-gratis/homem-analisando-codigo-binario-na-tela-virtual_53876-98559.jpg?w=740&t=st=1675693606~exp=1675694206~hmac=7aecff27cc05aa7ef8b3bbb10b2139c8e9ec523dbf1ab378745200f27a6c9443" alt="Desenvolvido por Hábil" style="width:200px;height:200px;"></center>
+
+ <h2 style="text-align:center">Criado por</h2>
+ <center><p style="color:red;">Hábil Developer</p> 
+<p>Sou iniciante em HTML, CSS e JS
+ aprendendo a criar sites dinâmicos e interativos. Buscando expandir conhecimentos e crescer profissionalmente</p>
+  </div>
+ 
+ <footer>©2023 GUIA HACKER</footer>
+<!-- Final do conteúdo da minha página  -->
+<script>
+/* font-family: 'Kaushan Script', cursive; */
+/* font-family: 'Pinyon Script', cursive; */
+/* font-family: 'Petit Formal Script', cursive; */
+/* font-family: 'Aguafina Script', cursive; */
+/* font-family: 'Rouge Script', cursive; */
+// font-family: 'Roboto', sans-serif;        
+</script>
+
+
+
+</body>
+</html>
